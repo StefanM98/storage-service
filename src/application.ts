@@ -7,10 +7,11 @@ import {
 import {RestApplication} from '@loopback/rest';
 import path from 'path';
 import {MySequence} from './sequence';
+import { RepositoryMixin } from '@loopback/repository';
 
 export {ApplicationConfig};
 
-export class StorageServiceApplication extends BootMixin(RestApplication) {
+export class StorageServiceApplication extends BootMixin(RepositoryMixin(RestApplication)) {
   constructor(options: ApplicationConfig = {}) {
     super(options);
 
