@@ -10,6 +10,11 @@ export * from './application';
 export async function main(options: ApplicationConfig = {}) {
   const app = new StorageServiceApplication(options);
   await app.boot();
+
+  if (process.env.MIGRATE_DB) {
+    await app.migrateSchema();
+  }
+  
   await app.start();
 
   const url = app.restServer.url;
