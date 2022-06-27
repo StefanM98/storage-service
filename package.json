@@ -39,7 +39,7 @@
     "url": ""
   },
   "author": "Stefan Milanovic <stefan.fva@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "README.md",
     "dist",
@@ -63,5 +63,6 @@
     "eslint": "^8.17.0",
     "source-map-support": "^0.5.21",
     "typescript": "~4.7.3"
-  }
+  },
+  "copyright.owner": "Stefan Milanovic <stefan.fva@gmail.com>"
 }
