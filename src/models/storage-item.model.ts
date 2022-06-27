@@ -39,6 +39,7 @@ export class StorageItem extends Entity {
 
   @property({
     type: 'string',
+    dataType: 'longtext'
   })
   image?: string;
 
