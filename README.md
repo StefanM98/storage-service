@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="public/icon.svg" width="200" height="200">
+    <img src="./public/icon.svg" width="200" height="200">
   <br>
     📦 storage-service 🗃️
   <br>
