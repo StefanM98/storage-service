@@ -40,8 +40,6 @@
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-Stefan_Milanovic-ff1414.svg"
         alt="Signature">
   </a>
-  <br><br>
-  <a href="https://www.buymeacoffee.com/stefandev" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </p>
 
 <hr \>
@@ -68,7 +66,6 @@
     - [Images](#images)
     - [Supported Databases](#supported-databases)
 - [💬 Contributing](#-contributing)
-- [💖 Support](#-support)
 - [📜 License](#-license)
 
 ## 🎤 Introduction/Motivation
@@ -77,7 +74,7 @@
 Like most people, I have a basement filled with boxes containing things I will *(eventually)* need. And like many of those people, I tend to forget what I have and where I left it, especially if I don’t access it often. So I thought it would be cool if I had a way to be able to lookup what I have and where I left it in a simple way.
 
 ### 📦Storage Web/Mobile App
-I plan to build a frontend application that relies on this service ([and you can too!](#-contributing)), in the comming months. Star the project and [follow me on LinkedIn](https://www.linkedin.com/in/stefanmilanovic/) to get updates and hear about other cool stuff!
+I plan to build a frontend application that relies on this service ([and you can too!](#-contributing)).
 
 In the meantime, I'm using [this custom iOS Shortcut](https://www.icloud.com/shortcuts/8afa841067f74876aa83426c7b635e2c) I built to add a single item to a storage. You simply provide the `URL` of your instance when importing. Once imported, you can add items to the storage by triggering the shortcut and passing in the `id` of the storage you want to add the item to. You will get prompted to take a picture, enter the name of the item, and optionally scan a barcode or change the quantity. My use case for this was programming a NFC tag to run the shortcut passing in the storage `id` stored in the tag's memory. I will be adding shortcuts for viewing the contents of a storage in the future.
 
@@ -241,12 +238,6 @@ Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
 understand how you can continue to add features to this application.
 
 [![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
-
-## 💖 Support
-
-Found this project useful? Please consider supporting my development by buying me a coffee! ☕
-
-<a href="https://www.buymeacoffee.com/stefandev" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## 📜 License
 
